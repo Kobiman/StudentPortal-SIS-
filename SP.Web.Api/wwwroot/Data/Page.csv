@@ -1,0 +1,28 @@
+Id,Title,Route,State
+1,Check Results,/app/#studentResults,0
+2,Department,/app/#department,0
+3,Institution,/app/#institution,0
+4,Mount Course,/app/#mountCourse,0
+5,Mounted Courses,/app/#mountedCourses,0
+6,Register Courses,/app/#courseRegistration,0
+7,School,/app/#school,0
+8,Student List,/app/#studentList,0
+9,Add Student,/app/#addStudent/stage1,0
+10,Lecturer,/app/#lecturer,0
+11,Program,/app/#program,0
+12,Course,/app/#course,0
+13,Lookup,/app/#lookup,0
+14,Permissions,/app/#permission,0
+15,Upload Result,/app/#uploadResults,0
+16,Approve Registration,/app/#approveRegistration,0
+17,Broad Sheet,/app/#broadSheet,0
+18,Results Summary,/app/#resultsSummary,0
+19,Results Ammendment,/app/#resultsAmmendment,0
+20,Transcript & St. of Result,/app/#transcriptGeneration,0
+21,Exams List,/app/#examsList,0
+22,Student Profile,/app/#userProfile,0
+23,Lecture Profile,/app/#lecturerProfile,0
+24,Grading System,/app/#gradingSystem,0
+25,Fees Status,/app/#feesStatement,0
+26,Controls,/app/#controls,0
+27,Pages,/app/#pages,0

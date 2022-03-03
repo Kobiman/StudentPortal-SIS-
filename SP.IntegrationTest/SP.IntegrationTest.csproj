@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.13.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.1" />
+    <PackageReference Include="Shouldly" Version="4.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sp.Commands\Sp.Commands.csproj" />
+    <ProjectReference Include="..\SP.DAL\SP.DAL.csproj" />
+    <ProjectReference Include="..\Sp.Models\Sp.Models.csproj" />
+    <ProjectReference Include="..\SP.Services.Interfaces\SP.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\SP.Services\SP.Services.csproj" />
+    <ProjectReference Include="..\SP.TestInfrastructure\SP.TestInfrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

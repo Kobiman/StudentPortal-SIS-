@@ -1,0 +1,1 @@
+{"version":3,"file":"addStudent.js","sourceRoot":"","sources":["../../../views/student/addStudent.tsx"],"names":[],"mappings":";;;;;;;;;AAIA,MAAM,OAAO,cAAc;IAEzB,YAAY,YAA0B;QACpC,IAAI,CAAC,aAAa,GAAG,YAAY,CAAC;IACpC,CAAC;IACK,aAAa;;QAEnB,CAAC;KAAA;IAEA,MAAM,CAAC,SAAiB;QACvB,yCAAyC;QACzC,yCAAyC;QACzC,8BAA8B;IAChC,CAAC;CA+FF"}

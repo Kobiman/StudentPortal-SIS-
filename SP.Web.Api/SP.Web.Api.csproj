@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <UserSecretsId>bd03bda9-3b56-4177-9297-b6b2ed6f5e05</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sp.Commands\Sp.Commands.csproj" />
+    <ProjectReference Include="..\SP.DAL\SP.DAL.csproj" />
+    <ProjectReference Include="..\Sp.Models\Sp.Models.csproj" />
+    <ProjectReference Include="..\SP.Services.Interfaces\SP.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\SP.Services\SP.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\app\images\" />
+  </ItemGroup>
+
+</Project>

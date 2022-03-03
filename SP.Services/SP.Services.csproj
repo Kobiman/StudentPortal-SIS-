@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SP.Common\SP.Common.csproj" />
+    <ProjectReference Include="..\Sp.Models\Sp.Models.csproj" />
+    <ProjectReference Include="..\SP.Services.Interfaces\SP.Services.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
